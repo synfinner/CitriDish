@@ -2,6 +2,8 @@
 
 This script is designed to help in identifying potential assets running NetScaler Gateway or AAA. In some cases, hosts may have both enabled.
 
+I've added in the DTCERT's list of patched last-modified headers as a marker for potentially vulnerable assets. Please note that modified pages and proxies may interfere with this method. Please ensure that you manually validate your discovered assets.
+
 ## Setup
 
 - Setup env: `python3 -m venv env`
