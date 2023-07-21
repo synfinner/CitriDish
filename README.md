@@ -4,6 +4,12 @@ This script is designed to help in identifying potential assets running NetScale
 
 I've added in the DTCERT's list of patched last-modified headers as a marker for potentially vulnerable assets. Please note that modified pages and proxies may interfere with this method. Please ensure that you manually validate your discovered assets.
 
+### CVE-2023-3519
+
+Assetnote published a script to check if a system is vulnerable. I've since added it to this script as well. <3 
+
+Simply add `--cve-2023-3519` to check.
+
 ## Setup
 
 - Setup env: `python3 -m venv env`
