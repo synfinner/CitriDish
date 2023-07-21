@@ -1,3 +1,6 @@
+
+# This is a PowerShell script that can be used to identify Citrix Gateways and AAA servers.
+# Thanks, @UK_Daniel_Card. ;) 
 param (
     [Parameter(Mandatory=$false, ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
     [Alias("targets")]
