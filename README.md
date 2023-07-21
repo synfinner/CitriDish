@@ -38,3 +38,5 @@ You may get an SSL error that contains:
 This is because SSL unsafe legacy renegotiation is disabled in Python and--not to shame people...but--several places still cannot figure out how to SSL/TLS.
 
 Lastly, I know that there are scripts to pull versions via the hashes within Gateway JS resource parameters. Many of these haven't been updated and I'm not going to singlehandedly do it. 
+
+[fox-srt Citrix Version Hashes gist](https://gist.github.com/fox-srt/c7eb3cbc6b4bf9bb5a874fa208277e86)
