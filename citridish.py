@@ -92,7 +92,7 @@ def main():
     parser.add_argument('targets', nargs='*', help="The IP address(es) or hostname(s) to check.")
     parser.add_argument('--file', '-f', help="Read targets from a file (one IP/hostname per line).")
     # Add argument to check for CVE-2023-3519 vulnerability with --cve-2023-3519 flag
-    parser.add_argument('--cve-2023-3519', action='store_true', help="Check for CVE-2023-3519 vulnerability.")
+    parser.add_argument('--cve-2023-3519', action='store_true', help="Check for CVE-2023-3519 vulnerability via SAML (if enabled). SAML is not required for exploitation!!!")
     args = parser.parse_args()
 
     if args.cve_2023_3519:
